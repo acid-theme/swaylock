@@ -9,7 +9,6 @@ on:
       - "acid-acetic.conf"
       - "acid-citric.conf"
       - "acid-lactic.conf"
-      - "preview/**"
   workflow_dispatch:
 
 jobs:

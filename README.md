@@ -1,15 +1,16 @@
 # Acid for swaylock
 
-Three flavours: **Acetic** (`#000000`), pure black with vibrant accents; **Citric** (`#1c1b19`), warm dark grey with muted accents; and **Lactic** (`#ffffff`), white with accents darkened to match.
+Generated from [acid-theme/acid](https://github.com/acid-theme/acid) — open issues
+and pull requests there.
 
-Part of [Acid](https://github.com/acid-theme/acid), a very dark colourscheme in two
-flavours. The main README lists the other ports.
+<details>
+<summary>Screenshots</summary>
 
-## Preview
+| Acetic | Citric | Lactic |
+| --- | --- | --- |
+| ![Acid Acetic](previews/acetic.png) | ![Acid Citric](previews/citric.png) | ![Acid Lactic](previews/lactic.png) |
 
-| Acetic | Citric |
-| --- | --- |
-| ![Acid Acetic](previews/acetic.png) | ![Acid Citric](previews/citric.png) |
+</details>
 
 ## Install
 
@@ -26,22 +27,6 @@ Or add local options to a copy and point swaylock at it with `swaylock -C`. Keep
 the two files disjoint: an unrecognised key makes swaylock exit rather than
 lock.
 
-All 29 of swaylock's colour options are set, so nothing falls back to its
-light-grey default.
+## Credits
 
-## Files
-
-- `acid-acetic.conf`
-- `acid-citric.conf`
-- `acid-lactic.conf`
-
-## Generated
-
-Acid 0.1.0, rendered by acidify from
-[`ports/swaylock/acid.conf.tera`](https://github.com/acid-theme/acid/blob/main/ports/swaylock/acid.conf.tera).
-Edits to these files are overwritten on the next release. Report issues on
-[acid-theme/acid](https://github.com/acid-theme/acid/issues).
-
-## Licence
-
-MIT.
+[@ssiyad](https://github.com/ssiyad)
